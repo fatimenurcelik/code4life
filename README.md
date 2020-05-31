@@ -1,1 +1,1 @@
-# code4life
+# Codingame - Code4life (Scala)
