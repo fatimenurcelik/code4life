@@ -10,4 +10,8 @@
 - Using carriedBy variable, decide robot has or not sample .
 - Then if you dont have , you go to DIAGNOSIS module.
 - After that compare between your robot's modules and sample's modules. Acoording to these go to MOLECULES module or LABORATORY module.
-#####Firstly robot is staying started position then it go to diagnosis module because of it doesnt have sample (best_sample.carriedBy != 0).Then its new target is diagnosis module , so it go out this if statement ,it go to else statement .In here it compare (me.storage(0) < best_sample.cost(0)) --> it shows do we need any molecule so , normally we need molecule and we go to molecule module after that we go to laboratory module and increase our score using health variable. 
+> Firstly robot is staying started position then it go to diagnosis module because of it doesnt have 
+> sample (best_sample.carriedBy != 0).Then its new target is diagnosis module , so it go out this if statement,
+> it go to else statement .In here it compare (me.storage(0) < best_sample.cost(0)) --> it shows do we need any
+> molecule so , normally we need molecule and we go to molecule module after that we go to laboratory module
+> and increase our score using health variable. 
