@@ -1,6 +1,6 @@
 # Codingame - Code4life 
 -   Language: Scala
-##Steps
+###Steps
 - Create two class Sample class and Robot class.
 - Create gotoAndConnect and gotoAndConnect2 methods in Player class.These are work same, only difference is variable types.This functions do CONNECT and GOTO process.
 - Create samples list, it holds object of Sample.
